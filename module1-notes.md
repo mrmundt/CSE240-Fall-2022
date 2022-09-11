@@ -19,7 +19,7 @@ But _why do we care_? Because of ways to express ideas, choose appropriate langu
 2. As computers became faster, programmers also needed to be fast, so we started to care about _writeability_.
 3. Now we care about the 3 R's: _Readability_, _Reusability_, and _Reliability_
 
-![Tradeoff Matrix](/images/tradeoff-matrix.png)
+![Tradeoff Matrix](/images/tradeoff-matrix.PNG)
 -------
 
 ## Lecture 2: Development of Programming Languages
@@ -87,7 +87,7 @@ There are **TWO** approaches to programming:
 
 ### The Four Major Paradigms
 
-![The Four Paradigms](/images/prog-paradigms.png)
+![The Four Paradigms](/images/prog-paradigms.PNG)
 
 1. _Imperative/Procedural_ (Non-declarative): Fully specified and controlled manipulation of named data in a step-wise function
    - Ex: `FORTRAN`, `C`
@@ -112,7 +112,7 @@ There are **TWO** approaches to programming:
 
 There is a fifth, which is called _Service-oriented_:
 
-![Service-oriented paradigm](/images/service-oriented.png)
+![Service-oriented paradigm](/images/service-oriented.PNG)
 
 ------
 
@@ -187,7 +187,7 @@ the syntax rules (BNF).
 
 A language can also be described using a _syntax graph_.
 
-![Example syntax graphs](/images/syntax-graph.png)
+![Example syntax graphs](/images/syntax-graph.PNG)
 
 ------
 
