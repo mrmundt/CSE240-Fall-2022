@@ -26,7 +26,9 @@ But _why do we care_? Because of ways to express ideas, choose appropriate langu
 
 _Definitions_
 > **Program**: a sequence of instructions in memory
+> 
 > **CPU**: Computing processing unit; interprets the sequence in order
+> 
 > **Lowest level**: Sequence of bits of machine code
 
 ------
@@ -51,7 +53,9 @@ _Definitions_
 
 _Definitions_
 > **Paradigm**: Example or pattern; a model
+> 
 > **Paradigm** (in CS): A coherent set of methods that are effective in handling a given type of problem
+> 
 > **Paradigm** (in Programming): Basic principles of how a computation or algorithm is expressed.
 
 ------
@@ -263,7 +267,9 @@ int z = y / x; // SEMANTIC ERROR
 _Definitions_
 > **Interpreter**: a program that translates and executes each statement in the high-level language without translating
 >                  all statements into executable code.
+> 
 > **Compilation**: a program that translates the entire code from source to binary, and then runs.
+> 
 > **Intermediate**: A code concept implemented in early version of `Pascal` to simplify compiler design.
 
 ------
@@ -339,6 +345,7 @@ x = MAXVAL + QUADFN(5, 16); // x = 100 + 5*sqrt(16) + 16*16 - 2*5*5*t++
 
 _Definitions_
 > **Final Variable**: If a variable is declared `final`, it may not be modified after its initialization (e.g., `final basevalue = 24`)
+> 
 > **Final Method**: This method cannot be overridden in a subclass
 
 ------
