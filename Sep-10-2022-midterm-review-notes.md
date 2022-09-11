@@ -119,9 +119,9 @@ Parameter passing
 Freeing memory
 --------------
 When would you use the following:
-- free() : C/C++ function ; after using `malloc` keyword
-- delete : C++; after using `new` keyword
-- delete [] : C++; for arrays; after using `new []` to make an array
+- `free()` : C/C++ function ; after using `malloc` keyword
+- `delete` : C++; after using `new` keyword
+- `delete []` : C++; for arrays; after using `new []` to make an array
 
 Struct padding
 --------------
@@ -131,11 +131,11 @@ Padding: optimization for performance that aligns struct members on word boundar
 		 spots must be filled to align the data."
 Rules:
 1) Each member of a struct gets padding before it so that it can begin on an address
-   divisible by its size (e.g., a short int of 2 bytes will start on a boundary that's
-   a multiple of 2, an int size of 4)
+   divisible by its size (e.g., a `short int` of 2 bytes will start on a boundary that's
+   a multiple of 2, an `int` size of 4)
 2) You have to fill up at the end, too - and it must be divisible by the largest member.
 
-Ex: (x86_64) - Know the byte values at least on 32-bit systems
+Ex: (x86_64) - !! Know the byte values at least on 32-bit systems !! (Good use of notecard)
 ```
 struct foo {
   char a;          // 0   a: 1 (needs 1 padding)
