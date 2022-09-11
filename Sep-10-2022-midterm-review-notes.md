@@ -103,6 +103,9 @@ C strings
 
 Parameter passing
 -----------------
+
+![Animation to delineate parameter passing](/images/pass-by-reference-vs-pass-by-value-animation.gif)
+
 - Call-by-value: Creates the new memory on the stack and copies the value of the parameter
                into it, so the outside reference does not change.
 - Call-by-address: Call the value of a pointer and then dereference it with a * to modify
