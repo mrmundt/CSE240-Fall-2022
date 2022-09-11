@@ -20,11 +20,14 @@ Recursion: The nth fibonacci number
 -----------------------------------
 The four steps of recursion:
 1) Size-n problem (as in, the most generic, high-level thing)
+   
    ex: "What is the nth fibonacci number?" - `int fib(int n)`
 2) Find the stopping condition and corresponding return value
+   
    ex: "The 0th Fibonacci number is 0; the 1st is 1"
 3) Formulate the m-size problem - that is, the smaller problem (`m1 = n-1`, `m2 = n-2`)
 4) Construct the solution of the size-n problem from the size-m
+   
    ex:
    ```
    int fibonacci(int n) {
