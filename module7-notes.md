@@ -26,6 +26,8 @@ In terms of scope, though:
 
 ## Lecture 2: Class Inheritance and Hierarchy
 
+_Definitions_
+
 > **Multiple Inheritance**: a derived class that inherits members from more than one base class.
 > _USE WITH CAUTION._
 
