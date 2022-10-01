@@ -18,7 +18,7 @@ _Syntax_:
 ```scm
 (let ( (name1 val1)
        ...
-       (namen val n))
+       (namen valn))
  body)
 ```
 
